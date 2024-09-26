@@ -1,0 +1,103 @@
+
+body {
+    text-align: center;
+    font-family: "Alex Brush", cursive;
+    font-weight: 500;
+    font-style: normal;
+    margin-top: 30px;
+    background: #B284BE;
+    color: #F0F8FF;
+    font-optical-sizing: 50px;
+    background: linear-gradient(to bottom, #B284BE, #563C5C);
+   
+}
+
+h1, h2, h3, h4, p {
+    text-shadow: 0px 10 15px #F0F8FF;
+  
+}
+
+#bff-img {
+    width: 180px;
+    border-radius: 50%;
+    border: 10px solid ;
+    margin-top: 30px;
+    margin-bottom: 30px;
+    
+
+}
+
+#bday-age {
+    background-color: #7DF9FF;;
+    background: 10px;
+    border-radius: 15px;
+    margin: 10px 0 10px 0;
+}
+
+#bday-date {
+    margin: 10px;
+    background: auto;
+    padding: 5px 10px;
+    border-radius: 5px;
+}
+
+#header {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.gift-section {
+    margin-top: 50px;
+}
+
+.gift-title {
+    margin-bottom: 10px;
+}
+
+.gift-hint {
+    margin-top: 0;
+}
+
+.gift-cheers{
+    margin-top: 0;
+}
+
+.gift-img {
+    margin: 20px auto;
+    max-width: 400px;
+    height: 400px;
+    border: 6px solid white;
+    border-radius: 10px;
+    background-image: url("images/Gift-cover.jpg");
+    background-size: cover;
+   
+}
+
+#gift-img-happy {
+    background-image: url("images/Gift-cover.jpg"); 
+    transition: background-image 0.3s ease;
+}
+
+#gift-img-happy:hover {
+    background-image: url("images/happy.gif");
+}
+
+#gift-img-cake {
+    background-image: url("images/Gift-cover.jpg"); 
+    transition: background-image 0.3s ease;
+}
+
+#gift-img-cake:hover {
+    background-image: url("images/Zeta-Birthday.gif");
+}
+#footer {
+    font-style: italic;
+    width: 500px;
+    margin: 40px auto 20px;
+    font-size: larger;
+}
+
+a {
+    color: white;
+}
